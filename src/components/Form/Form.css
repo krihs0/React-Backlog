@@ -1,0 +1,50 @@
+.form{
+    width: 40rem;
+    background: linear-gradient(to bottom, hsl(0,0%,93%), hsl(0,0%,83%));
+    aspect-ratio: 1/1;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+    box-shadow: 0 1rem 2rem 0 rgba(0,0,0,0.3);
+}
+
+.form__wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.formInputsWrapper{
+    display:  flex;
+    flex-direction: column;
+    gap:  2rem;
+}
+
+.form__Search{
+    background: linear-gradient(to bottom right, #BE5869, #403A3E);
+    color: #eee;
+    font-family: 90%;
+    font-size: inherit;
+    border: none;
+    width: min-content;
+    aspect-ratio: 3/1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.form__label{
+    font-size: 110%;
+    
+}
+
+.form__input{
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 0.3rem solid #403A3E;
+    background: hsl(0, 0%, 87%);
+    font-size: 100%;
+}
